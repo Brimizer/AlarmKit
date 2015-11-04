@@ -22,7 +22,7 @@
                                 <rect key="frame" x="267" y="40" width="66" height="19.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.53725490200000003" green="0.23529411759999999" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bfl-K7-KzB">
@@ -38,22 +38,34 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="49" id="PJr-ix-W3J"/>
                                 </constraints>
+                                <color key="onTintColor" red="0.53725490200000003" green="0.23529411759999999" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7e-KH-3Fq">
+                                <rect key="frame" x="204" y="547.5" width="193" height="32.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.53725490200000003" green="0.23529411759999999" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="W7e-KH-3Fq" secondAttribute="bottom" constant="20" id="34b-jY-Yhz"/>
                             <constraint firstItem="3Xg-mF-50B" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="9aD-N1-LPf"/>
                             <constraint firstAttribute="leadingMargin" secondItem="bfl-K7-KzB" secondAttribute="leading" id="Ar4-o9-8Gq"/>
                             <constraint firstItem="bfl-K7-KzB" firstAttribute="top" secondItem="3Xg-mF-50B" secondAttribute="bottom" constant="7.5" id="TSZ-bD-xee"/>
                             <constraint firstItem="3Xg-mF-50B" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="c9a-6m-J05"/>
                             <constraint firstItem="6qL-l8-Vu8" firstAttribute="top" secondItem="bfl-K7-KzB" secondAttribute="bottom" constant="8" id="cbo-jt-lFE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bfl-K7-KzB" secondAttribute="trailing" id="k9Z-ge-SGb"/>
+                            <constraint firstItem="W7e-KH-3Fq" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="mk1-PX-Gl7"/>
                             <constraint firstItem="6qL-l8-Vu8" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="yNV-1q-jNL"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="datePicker" destination="bfl-K7-KzB" id="UFA-E2-TJg"/>
+                        <outlet property="onSwitch" destination="6qL-l8-Vu8" id="nbA-3l-0oV"/>
+                        <outlet property="triggeredLabel" destination="W7e-KH-3Fq" id="s2h-0V-F6X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

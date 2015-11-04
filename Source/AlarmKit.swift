@@ -38,33 +38,57 @@ public class Alarm: NSObject {
     public var minute: Int
     public var weekdays: [Weekday]?
     public var isOn: Bool = true
+    public var block: () -> ()
 
     private var timer: NSTimer?
-    private var block: () -> ()
     private var repeats: Bool = false
+    
+    // If you don't know the time yet, then create a time-less alarm.
+    // It will be off by default. You must call turnOn() after setting a time.
+    public override init() {
+        self.hour = 0
+        self.minute = 0
+        self.block = {}
+        self.repeats = false
+        
+        super.init()
+    }
+    
+    // If you don't know the time yet, then create a time-less alarm.
+    // It will be off by default. You must call turnOn() after setting a time.
+    public convenience init(_ block: () -> ()) {
+        
+        self.init()
+        
+        self.block = block
+        self.repeats = false
+    }
 
-    public init(weekdays:[Weekday], hour:Int, minute:Int, _ block: () -> ()) {
+    public convenience init(weekdays:[Weekday], hour:Int, minute:Int, _ block: () -> ()) {
+
+        self.init()
+        
         self.hour = hour
         self.minute = minute
         self.weekdays = weekdays
         self.block = block
         self.repeats = true
 
-        super.init()
-
         self.turnOn()
     }
 
-    public init(hour:Int, minute:Int, _ block: () -> ()) {
+    public convenience init(hour:Int, minute:Int, _ block: () -> ()) {
+
+        self.init()
+        
         self.hour = hour
         self.minute = minute
         self.block = block
         self.repeats = false
 
-        super.init()
-
         self.turnOn()
     }
+    
 
     /// Returns a tuple of (weekay, hour, minute, second) of the current date/time
     private func currentDateComponents() -> (Int, Int, Int, Int) {
@@ -125,13 +149,13 @@ private class NSTimerActor {
     }
 }
 
-extension NSTimer {
-    public class func new(every interval: NSTimeInterval, _ block: () -> ()) -> NSTimer {
+private extension NSTimer {
+    private class func new(every interval: NSTimeInterval, _ block: () -> ()) -> NSTimer {
         let actor = NSTimerActor(block)
         return self.init(timeInterval: interval, target: actor, selector: "fire", userInfo: nil, repeats: true)
     }
 
-    public func start(runLoop runLoop: NSRunLoop = NSRunLoop.currentRunLoop(), modes: String...) {
+    private func start(runLoop runLoop: NSRunLoop = NSRunLoop.currentRunLoop(), modes: String...) {
         let modes = modes.isEmpty ? [NSDefaultRunLoopMode] : modes
 
         for mode in modes {
@@ -139,7 +163,7 @@ extension NSTimer {
         }
     }
 
-    public class func every(interval:NSTimeInterval, _ block: () -> ()) -> NSTimer {
+    private class func every(interval:NSTimeInterval, _ block: () -> ()) -> NSTimer {
         let timer = NSTimer.new(every: interval, block)
         timer.start()
         return timer
