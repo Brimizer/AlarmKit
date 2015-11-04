@@ -18,30 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1b-fq-Pc9">
-                                <rect key="frame" x="20" y="79.5" width="120" height="32.5"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="Y9b-3H-kF6"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1e-x4-vnC">
-                                <rect key="frame" x="115" y="91.5" width="21.5" height="17"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6qL-l8-Vu8">
-                                <rect key="frame" x="511" y="80.5" width="51" height="31"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="PJr-ix-W3J"/>
-                                </constraints>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AlarmKit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xg-mF-50B">
                                 <rect key="frame" x="267" y="40" width="66" height="19.5"/>
                                 <animations/>
@@ -50,29 +26,35 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bfl-K7-KzB">
-                                <rect key="frame" x="20" y="142" width="560" height="216"/>
+                                <rect key="frame" x="20" y="67" width="560" height="216"/>
                                 <animations/>
                                 <date key="date" timeIntervalSinceReferenceDate="468311318.60659701">
                                     <!--2015-11-04 06:28:38 +0000-->
                                 </date>
                             </datePicker>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6qL-l8-Vu8">
+                                <rect key="frame" x="276" y="291" width="51" height="31"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="PJr-ix-W3J"/>
+                                </constraints>
+                            </switch>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="x1e-x4-vnC" firstAttribute="baseline" secondItem="J1b-fq-Pc9" secondAttribute="baseline" id="2nZ-te-qkO"/>
                             <constraint firstItem="3Xg-mF-50B" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="9aD-N1-LPf"/>
-                            <constraint firstItem="bfl-K7-KzB" firstAttribute="top" secondItem="J1b-fq-Pc9" secondAttribute="bottom" constant="30" id="9an-62-5O5"/>
                             <constraint firstAttribute="leadingMargin" secondItem="bfl-K7-KzB" secondAttribute="leading" id="Ar4-o9-8Gq"/>
-                            <constraint firstItem="6qL-l8-Vu8" firstAttribute="centerY" secondItem="J1b-fq-Pc9" secondAttribute="centerY" id="ES3-RN-MK5"/>
-                            <constraint firstItem="J1b-fq-Pc9" firstAttribute="top" secondItem="3Xg-mF-50B" secondAttribute="bottom" constant="20" id="IZg-th-UHj"/>
+                            <constraint firstItem="bfl-K7-KzB" firstAttribute="top" secondItem="3Xg-mF-50B" secondAttribute="bottom" constant="7.5" id="TSZ-bD-xee"/>
                             <constraint firstItem="3Xg-mF-50B" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="c9a-6m-J05"/>
-                            <constraint firstItem="x1e-x4-vnC" firstAttribute="leading" secondItem="J1b-fq-Pc9" secondAttribute="trailing" constant="-25" id="gC7-d6-Lwr"/>
+                            <constraint firstItem="6qL-l8-Vu8" firstAttribute="top" secondItem="bfl-K7-KzB" secondAttribute="bottom" constant="8" id="cbo-jt-lFE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bfl-K7-KzB" secondAttribute="trailing" id="k9Z-ge-SGb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6qL-l8-Vu8" secondAttribute="trailing" constant="20" id="rgl-1S-fex"/>
-                            <constraint firstItem="J1b-fq-Pc9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="u0B-Ll-loV"/>
+                            <constraint firstItem="6qL-l8-Vu8" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="yNV-1q-jNL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="bfl-K7-KzB" id="UFA-E2-TJg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

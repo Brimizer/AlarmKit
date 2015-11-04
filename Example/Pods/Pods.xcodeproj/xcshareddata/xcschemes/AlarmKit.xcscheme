@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4418A3103893286B921567E7"
+               BlueprintIdentifier = "135B3D303CDDC4F85CB7E89E"
                BuildableName = "AlarmKit.framework"
                BlueprintName = "AlarmKit"
                ReferencedContainer = "container:Pods.xcodeproj">

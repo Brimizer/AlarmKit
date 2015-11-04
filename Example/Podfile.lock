@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlarmKit: 39b5320e6c81debb6d47672f381d1c90d02ddff2
+  AlarmKit: b406144ff0895e0b3bbb196115cf9be3636de4c1
 
 COCOAPODS: 0.38.2
