@@ -1,4 +1,4 @@
-# AlarmKit
+![AlarmKit: Simple Alarms in Swift](https://raw.githubusercontent.com/Brimizer/AlarmKit/master/Assets/alarmkit_logo.png)
 
 [![Version](https://img.shields.io/cocoapods/v/AlarmKit.svg?style=flat)](http://cocoapods.org/pods/AlarmKit)
 [![License](https://img.shields.io/cocoapods/l/AlarmKit.svg?style=flat)](http://cocoapods.org/pods/AlarmKit)
