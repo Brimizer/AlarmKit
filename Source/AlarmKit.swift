@@ -43,7 +43,7 @@ public class Alarm: NSObject {
     private var block: () -> ()
     private var repeats: Bool = false
 
-    init(weekdays:[Weekday], hour:Int, minute:Int, _ block: () -> ()) {
+    public init(weekdays:[Weekday], hour:Int, minute:Int, _ block: () -> ()) {
         self.hour = hour
         self.minute = minute
         self.weekdays = weekdays
@@ -55,7 +55,7 @@ public class Alarm: NSObject {
         self.turnOn()
     }
 
-    init(hour:Int, minute:Int, _ block: () -> ()) {
+    public init(hour:Int, minute:Int, _ block: () -> ()) {
         self.hour = hour
         self.minute = minute
         self.block = block

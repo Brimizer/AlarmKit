@@ -7,93 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02570A4D2ED9B0CF596440A090762C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCC6F10B6794CE3E1F66304D2D09240 /* Foundation.framework */; };
-		07129CCB1AE3B5190BEA0A49BA5E0E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCC6F10B6794CE3E1F66304D2D09240 /* Foundation.framework */; };
-		07ADE4C8E4B4354946B410348EB4A110 /* AlarmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 206C7C3570A67C4265C11E8EFA806B42 /* AlarmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07129CCB1AE3B5190BEA0A49BA5E0E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFA3AC7876D4B9EC2032EF2CD0BB9AF /* Foundation.framework */; };
 		27F573B491D1F77D4F16B30020C5EE9C /* Pods-AlarmKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34B5298518416EED783A89E2EFA80E3 /* Pods-AlarmKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28BA23CB719753D3163038BDEC11A449 /* AlarmKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB01C95C9996941542C842128652D8EF /* AlarmKit.swift */; };
-		3C379688E50E98460586EAA2B531997C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCC6F10B6794CE3E1F66304D2D09240 /* Foundation.framework */; };
+		3C379688E50E98460586EAA2B531997C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFA3AC7876D4B9EC2032EF2CD0BB9AF /* Foundation.framework */; };
 		7609041C95BF108BBF6AA23E64272755 /* Pods-AlarmKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DECD23204D9C4D1C1CF394AE75DA8FCF /* Pods-AlarmKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829994813D2A053ED44C36D71E26271E /* AlarmKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C827C978F8E3936D1D81DF14DDD5BC /* AlarmKit-dummy.m */; };
 		B3926E1510A8A4266592096C9F848E5B /* Pods-AlarmKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A69E41315944BD0E2534FBA243D8B54B /* Pods-AlarmKit_Tests-dummy.m */; };
-		BB7A8653D40E94910FCB96C65B30E9B4 /* AlarmKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB172C768A65CAE77738608DD3506918 /* AlarmKit.bundle */; };
+		B560317115716275EB31F33D9EB72E83 /* AlarmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9720B2E195A6440DB8120349ABD7CCE /* AlarmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B50224DBDE02025338924951BD6E80 /* AlarmKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D121E82EA3032324E4C39A5322CC6 /* AlarmKit.swift */; };
+		D2E422A2D4F1F0A4E6EBFB6FCBC94C3B /* AlarmKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22802DE8ACF42A4A56D4C4EBE2856F6E /* AlarmKit.bundle */; };
+		D60D8607EB42CC73D92943ABCC4729E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFA3AC7876D4B9EC2032EF2CD0BB9AF /* Foundation.framework */; };
 		ECB275BD0897C114574B84A3D65F0689 /* Pods-AlarmKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 502DB64439161CB10C4FB33BA3CE73D1 /* Pods-AlarmKit_Example-dummy.m */; };
-		ED5AAEB35A72B7C7B298E3B5D090BA06 /* AlarmKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AFA212BAF675B111D0107C7A174DC4 /* AlarmKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38110D7F89C725498F8865F7625AF61B /* PBXContainerItemProxy */ = {
+		1945E55EA05AC215412918D56AC6F678 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 889A4A05E01308D97082266A69C7240B;
+			remoteGlobalIDString = D947D428B951667769BB5507A3CFF40D;
 			remoteInfo = AlarmKit;
 		};
-		E56CEC1582197F65FD897C887630A383 /* PBXContainerItemProxy */ = {
+		2F2E0C76043862A2A4FA987E0C2BA71F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 889A4A05E01308D97082266A69C7240B;
+			remoteGlobalIDString = D947D428B951667769BB5507A3CFF40D;
 			remoteInfo = AlarmKit;
 		};
-		FCA21B42F9A4099E75E5B667B0AA8DFA /* PBXContainerItemProxy */ = {
+		E1DBECB96B19644BC757A5B652F72C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 564346FC09B334CB7BBC04A622C59C7A;
+			remoteGlobalIDString = 37896DC855F1551EEB79802545B2F795;
 			remoteInfo = "AlarmKit-AlarmKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000C14E060530C234E6B70037E9F5191 /* AlarmKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlarmKit-Private.xcconfig"; sourceTree = "<group>"; };
 		03A3EBF45219F83969BBA93EB0553443 /* Pods-AlarmKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0AFA3AC7876D4B9EC2032EF2CD0BB9AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		14A7A12D069166D6929AC40CB382C475 /* AlarmKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AlarmKit.modulemap; sourceTree = "<group>"; };
 		18A73450CBF5E3636DA8CAC214456C58 /* Pods-AlarmKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1B04A9E59479664D199A696713FF6312 /* Pods-AlarmKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmKit_Example-resources.sh"; sourceTree = "<group>"; };
+		1E3D121E82EA3032324E4C39A5322CC6 /* AlarmKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlarmKit.swift; sourceTree = "<group>"; };
 		1E8EE56BF11CB10AFAFD5841C23764E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		206C7C3570A67C4265C11E8EFA806B42 /* AlarmKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlarmKit-umbrella.h"; sourceTree = "<group>"; };
 		2212C114E0DED12B9E6EBAC2C0A7CED4 /* Pods-AlarmKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		22802DE8ACF42A4A56D4C4EBE2856F6E /* AlarmKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DE2407F28693C6FD9A980941FB8A06 /* AlarmKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlarmKit.xcconfig; sourceTree = "<group>"; };
 		3B07AF13A193655D22E4E1154EFF501A /* Pods-AlarmKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AlarmKit_Tests.modulemap"; sourceTree = "<group>"; };
 		48119E45DD646ED40E352822E2E3FFC5 /* Pods-AlarmKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlarmKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		502DB64439161CB10C4FB33BA3CE73D1 /* Pods-AlarmKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmKit_Example-dummy.m"; sourceTree = "<group>"; };
 		5C529B211A94BAC4FD4AE4419F18B10E /* Pods-AlarmKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5CCC6F10B6794CE3E1F66304D2D09240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5D09F09F64434144446B80313F742099 /* Pods_AlarmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlarmKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DECB4E8DBC76AA7442704F6EC0563D3 /* Pods-AlarmKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5EBAAB539A34F1BA29ACEA3CF57B076D /* Pods-AlarmKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		67AFA212BAF675B111D0107C7A174DC4 /* AlarmKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlarmKit-dummy.m"; sourceTree = "<group>"; };
 		69B066A843F74863F81BA98C53F93B4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D1CC882BDB4A6E6E2AF9B7AA82926B2 /* Pods-AlarmKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7081E775BF947058894EF2B266FB8D84 /* AlarmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlarmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CF987551CD39771920E09403486A31 /* Pods-AlarmKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		818D55697D0E77A707C42E7926137974 /* Pods-AlarmKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlarmKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		846CFCFCF07F16493122C18E20C7CBB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C827C978F8E3936D1D81DF14DDD5BC /* AlarmKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlarmKit-dummy.m"; sourceTree = "<group>"; };
+		98EEB846C01D26C05C2E3D37C18E459A /* AlarmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlarmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C448DDF467668EEC8CD1EB9767D6BC0 /* AlarmKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlarmKit-prefix.pch"; sourceTree = "<group>"; };
 		9CCE0331532AF91E6EFBF2343B0FF067 /* Pods_AlarmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlarmKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69E41315944BD0E2534FBA243D8B54B /* Pods-AlarmKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		A9720B2E195A6440DB8120349ABD7CCE /* AlarmKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlarmKit-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB172C768A65CAE77738608DD3506918 /* AlarmKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB01C95C9996941542C842128652D8EF /* AlarmKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlarmKit.swift; sourceTree = "<group>"; };
 		DE842F942FF3FB61E8FEB2A2B3EF2045 /* Pods-AlarmKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		DECD23204D9C4D1C1CF394AE75DA8FCF /* Pods-AlarmKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlarmKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		E34B5298518416EED783A89E2EFA80E3 /* Pods-AlarmKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlarmKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FB03A18CA389669CB5F0ADC96A775837 /* Pods-AlarmKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AlarmKit_Example.modulemap"; sourceTree = "<group>"; };
+		FC4E3412F28FC94DBCE4F09AB09FBE73 /* AlarmKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlarmKit-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A5386FA98841EA310BC371F2FBD5C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		598A79145CD07253D4E346AC84630B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3C379688E50E98460586EAA2B531997C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3FD51A2A73F8E3EF570DEA0A377AB76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,11 +105,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAA8EC625400D30F2EBC7A74B7A6FE79 /* Frameworks */ = {
+		FF909A06EFA9FE127F85E95FBFEA6ACC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02570A4D2ED9B0CF596440A090762C4E /* Foundation.framework in Frameworks */,
+				D60D8607EB42CC73D92943ABCC4729E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5CCC6F10B6794CE3E1F66304D2D09240 /* Foundation.framework */,
+				0AFA3AC7876D4B9EC2032EF2CD0BB9AF /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 		5EA62AF3C4FD2BFF42BC661E07AD86F3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				CB01C95C9996941542C842128652D8EF /* AlarmKit.swift */,
+				1E3D121E82EA3032324E4C39A5322CC6 /* AlarmKit.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -174,10 +174,10 @@
 			children = (
 				14A7A12D069166D6929AC40CB382C475 /* AlarmKit.modulemap */,
 				22DE2407F28693C6FD9A980941FB8A06 /* AlarmKit.xcconfig */,
-				000C14E060530C234E6B70037E9F5191 /* AlarmKit-Private.xcconfig */,
-				67AFA212BAF675B111D0107C7A174DC4 /* AlarmKit-dummy.m */,
+				FC4E3412F28FC94DBCE4F09AB09FBE73 /* AlarmKit-Private.xcconfig */,
+				95C827C978F8E3936D1D81DF14DDD5BC /* AlarmKit-dummy.m */,
 				9C448DDF467668EEC8CD1EB9767D6BC0 /* AlarmKit-prefix.pch */,
-				206C7C3570A67C4265C11E8EFA806B42 /* AlarmKit-umbrella.h */,
+				A9720B2E195A6440DB8120349ABD7CCE /* AlarmKit-umbrella.h */,
 				1E8EE56BF11CB10AFAFD5841C23764E9 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -187,8 +187,8 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB172C768A65CAE77738608DD3506918 /* AlarmKit.bundle */,
-				7081E775BF947058894EF2B266FB8D84 /* AlarmKit.framework */,
+				22802DE8ACF42A4A56D4C4EBE2856F6E /* AlarmKit.bundle */,
+				98EEB846C01D26C05C2E3D37C18E459A /* AlarmKit.framework */,
 				9CCE0331532AF91E6EFBF2343B0FF067 /* Pods_AlarmKit_Example.framework */,
 				5D09F09F64434144446B80313F742099 /* Pods_AlarmKit_Tests.framework */,
 			);
@@ -243,19 +243,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18A1983DD2E87196511A38E6F6A23046 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07ADE4C8E4B4354946B410348EB4A110 /* AlarmKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		43E67B5CACF33197D71C77FC37D4C0E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7609041C95BF108BBF6AA23E64272755 /* Pods-AlarmKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEE06ABD5CE0467A48E9121DAC2DB40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B560317115716275EB31F33D9EB72E83 /* AlarmKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,20 +281,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				73EE570DFCE4C27675562B772E035EC8 /* PBXTargetDependency */,
+				4AFBFA76E2149C2F32FD6CD68560873A /* PBXTargetDependency */,
 			);
 			name = "Pods-AlarmKit_Tests";
 			productName = "Pods-AlarmKit_Tests";
 			productReference = 5D09F09F64434144446B80313F742099 /* Pods_AlarmKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		564346FC09B334CB7BBC04A622C59C7A /* AlarmKit-AlarmKit */ = {
+		37896DC855F1551EEB79802545B2F795 /* AlarmKit-AlarmKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 705E442A2E8A888616BD06C807D9277A /* Build configuration list for PBXNativeTarget "AlarmKit-AlarmKit" */;
+			buildConfigurationList = 107D81C97DFFF2F38A29F4E266E37DCE /* Build configuration list for PBXNativeTarget "AlarmKit-AlarmKit" */;
 			buildPhases = (
-				D83223A5CD2A1D7E71415568F397244D /* Sources */,
-				D3FD51A2A73F8E3EF570DEA0A377AB76 /* Frameworks */,
-				E8D559ECA5F41CB7B8DB0EC23C88E2EF /* Resources */,
+				D076B6961E1234E7E3575DBB52B8D218 /* Sources */,
+				3A5386FA98841EA310BC371F2FBD5C38 /* Frameworks */,
+				128251833F02CA61FBA621AFA0AE1FCE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +302,7 @@
 			);
 			name = "AlarmKit-AlarmKit";
 			productName = "AlarmKit-AlarmKit";
-			productReference = BB172C768A65CAE77738608DD3506918 /* AlarmKit.bundle */;
+			productReference = 22802DE8ACF42A4A56D4C4EBE2856F6E /* AlarmKit.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5BA23BAB20886DB856F487F659E87903 /* Pods-AlarmKit_Example */ = {
@@ -316,30 +316,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				346779ABE15CFF3E4A0ECD12046AF1C0 /* PBXTargetDependency */,
+				7CDF89FB34AAC45F2302AC14F83BC068 /* PBXTargetDependency */,
 			);
 			name = "Pods-AlarmKit_Example";
 			productName = "Pods-AlarmKit_Example";
 			productReference = 9CCE0331532AF91E6EFBF2343B0FF067 /* Pods_AlarmKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		889A4A05E01308D97082266A69C7240B /* AlarmKit */ = {
+		D947D428B951667769BB5507A3CFF40D /* AlarmKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 748A298D4AE1393C6793E2C8E498B3BB /* Build configuration list for PBXNativeTarget "AlarmKit" */;
+			buildConfigurationList = F63943131AE438AFEAD9CB577AC17E44 /* Build configuration list for PBXNativeTarget "AlarmKit" */;
 			buildPhases = (
-				1AB8C9CDDE3260ACC87B13B1863459D9 /* Sources */,
-				FAA8EC625400D30F2EBC7A74B7A6FE79 /* Frameworks */,
-				4882F8167232D6D41313744F28C6233E /* Resources */,
-				18A1983DD2E87196511A38E6F6A23046 /* Headers */,
+				0087825EE8B7EEFD4EDB1237B4B7F2EC /* Sources */,
+				FF909A06EFA9FE127F85E95FBFEA6ACC /* Frameworks */,
+				D7B561920A827961F614914BE4CDDABA /* Resources */,
+				6BEE06ABD5CE0467A48E9121DAC2DB40 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AD576A3C6703A315A0E930D1EF3FFA35 /* PBXTargetDependency */,
+				1D48651E25F4B50F81811D6EFB92D6A4 /* PBXTargetDependency */,
 			);
 			name = AlarmKit;
 			productName = AlarmKit;
-			productReference = 7081E775BF947058894EF2B266FB8D84 /* AlarmKit.framework */;
+			productReference = 98EEB846C01D26C05C2E3D37C18E459A /* AlarmKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -363,8 +363,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				889A4A05E01308D97082266A69C7240B /* AlarmKit */,
-				564346FC09B334CB7BBC04A622C59C7A /* AlarmKit-AlarmKit */,
+				D947D428B951667769BB5507A3CFF40D /* AlarmKit */,
+				37896DC855F1551EEB79802545B2F795 /* AlarmKit-AlarmKit */,
 				5BA23BAB20886DB856F487F659E87903 /* Pods-AlarmKit_Example */,
 				31BC9994BD7A72EB7FF98522529092E5 /* Pods-AlarmKit_Tests */,
 			);
@@ -372,30 +372,30 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4882F8167232D6D41313744F28C6233E /* Resources */ = {
+		128251833F02CA61FBA621AFA0AE1FCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7A8653D40E94910FCB96C65B30E9B4 /* AlarmKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8D559ECA5F41CB7B8DB0EC23C88E2EF /* Resources */ = {
+		D7B561920A827961F614914BE4CDDABA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E422A2D4F1F0A4E6EBFB6FCBC94C3B /* AlarmKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AB8C9CDDE3260ACC87B13B1863459D9 /* Sources */ = {
+		0087825EE8B7EEFD4EDB1237B4B7F2EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5AAEB35A72B7C7B298E3B5D090BA06 /* AlarmKit-dummy.m in Sources */,
-				28BA23CB719753D3163038BDEC11A449 /* AlarmKit.swift in Sources */,
+				829994813D2A053ED44C36D71E26271E /* AlarmKit-dummy.m in Sources */,
+				B8B50224DBDE02025338924951BD6E80 /* AlarmKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +407,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D83223A5CD2A1D7E71415568F397244D /* Sources */ = {
+		D076B6961E1234E7E3575DBB52B8D218 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,23 +425,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		346779ABE15CFF3E4A0ECD12046AF1C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AlarmKit;
-			target = 889A4A05E01308D97082266A69C7240B /* AlarmKit */;
-			targetProxy = 38110D7F89C725498F8865F7625AF61B /* PBXContainerItemProxy */;
-		};
-		73EE570DFCE4C27675562B772E035EC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AlarmKit;
-			target = 889A4A05E01308D97082266A69C7240B /* AlarmKit */;
-			targetProxy = E56CEC1582197F65FD897C887630A383 /* PBXContainerItemProxy */;
-		};
-		AD576A3C6703A315A0E930D1EF3FFA35 /* PBXTargetDependency */ = {
+		1D48651E25F4B50F81811D6EFB92D6A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AlarmKit-AlarmKit";
-			target = 564346FC09B334CB7BBC04A622C59C7A /* AlarmKit-AlarmKit */;
-			targetProxy = FCA21B42F9A4099E75E5B667B0AA8DFA /* PBXContainerItemProxy */;
+			target = 37896DC855F1551EEB79802545B2F795 /* AlarmKit-AlarmKit */;
+			targetProxy = E1DBECB96B19644BC757A5B652F72C8A /* PBXContainerItemProxy */;
+		};
+		4AFBFA76E2149C2F32FD6CD68560873A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlarmKit;
+			target = D947D428B951667769BB5507A3CFF40D /* AlarmKit */;
+			targetProxy = 2F2E0C76043862A2A4FA987E0C2BA71F /* PBXContainerItemProxy */;
+		};
+		7CDF89FB34AAC45F2302AC14F83BC068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlarmKit;
+			target = D947D428B951667769BB5507A3CFF40D /* AlarmKit */;
+			targetProxy = 1945E55EA05AC215412918D56AC6F678 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -480,9 +480,36 @@
 			};
 			name = Release;
 		};
-		41DE33A2F59FBC6314E2EAA54894DEB6 /* Release */ = {
+		1EAE4F1E58E9E96FF41372EEEA9E50E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000C14E060530C234E6B70037E9F5191 /* AlarmKit-Private.xcconfig */;
+			baseConfigurationReference = FC4E3412F28FC94DBCE4F09AB09FBE73 /* AlarmKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AlarmKit/AlarmKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlarmKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlarmKit/AlarmKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AlarmKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EEA3E2FD89C7CB6B78DBE5142EC9B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4E3412F28FC94DBCE4F09AB09FBE73 /* AlarmKit-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = AlarmKit;
@@ -590,9 +617,9 @@
 			};
 			name = Release;
 		};
-		8FECBA3289282F3ECA57DF47FDCAFB82 /* Debug */ = {
+		ABD9D46D1A5F91C8C164DF31CB73C7D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000C14E060530C234E6B70037E9F5191 /* AlarmKit-Private.xcconfig */;
+			baseConfigurationReference = FC4E3412F28FC94DBCE4F09AB09FBE73 /* AlarmKit-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = AlarmKit;
@@ -601,33 +628,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
-		};
-		9A9A2459752AB498ABFB0B20E7C52530 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000C14E060530C234E6B70037E9F5191 /* AlarmKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AlarmKit/AlarmKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlarmKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlarmKit/AlarmKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AlarmKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E5816185D0F4A72E4ACBFE574F893DAF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -657,6 +657,34 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F36FC0AA5E50AAED9C203B63B165FD26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4E3412F28FC94DBCE4F09AB09FBE73 /* AlarmKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AlarmKit/AlarmKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlarmKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlarmKit/AlarmKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AlarmKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FCF6092D70887E1078C7828CA45304C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -688,60 +716,23 @@
 			};
 			name = Debug;
 		};
-		FD173459CA700915F17E2FD8FADAF720 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000C14E060530C234E6B70037E9F5191 /* AlarmKit-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AlarmKit/AlarmKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlarmKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlarmKit/AlarmKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AlarmKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		107D81C97DFFF2F38A29F4E266E37DCE /* Build configuration list for PBXNativeTarget "AlarmKit-AlarmKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD9D46D1A5F91C8C164DF31CB73C7D6 /* Debug */,
+				3EEA3E2FD89C7CB6B78DBE5142EC9B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
 				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		705E442A2E8A888616BD06C807D9277A /* Build configuration list for PBXNativeTarget "AlarmKit-AlarmKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FECBA3289282F3ECA57DF47FDCAFB82 /* Debug */,
-				41DE33A2F59FBC6314E2EAA54894DEB6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		748A298D4AE1393C6793E2C8E498B3BB /* Build configuration list for PBXNativeTarget "AlarmKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD173459CA700915F17E2FD8FADAF720 /* Debug */,
-				9A9A2459752AB498ABFB0B20E7C52530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,6 +751,15 @@
 			buildConfigurations = (
 				5B37B0C1C7C27EF04B09A933E9519FB0 /* Debug */,
 				6A4030C02E2890915B0E89175B907465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63943131AE438AFEAD9CB577AC17E44 /* Build configuration list for PBXNativeTarget "AlarmKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36FC0AA5E50AAED9C203B63B165FD26 /* Debug */,
+				1EAE4F1E58E9E96FF41372EEEA9E50E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
