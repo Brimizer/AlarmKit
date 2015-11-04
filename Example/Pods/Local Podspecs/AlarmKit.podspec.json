@@ -1,17 +1,18 @@
 {
   "name": "AlarmKit",
   "version": "0.1.0",
-  "summary": "A short description of AlarmKit.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AlarmKit",
+  "summary": "A simple way to create scheduled and repeating alarms in Swift.",
+  "description": "A simple way to create scheduled and repeating alarms in Swift. Can be used in iOS or OSX to make alarm clock apps, notification systems, or more.",
+  "homepage": "https://github.com/brimizer/AlarmKit",
   "license": "MIT",
   "authors": {
     "Daniel Brim": "brimizer@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AlarmKit.git",
+    "git": "https://github.com/brimizer/AlarmKit.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/brimizer",
   "platforms": {
     "ios": "8.0"
   },
