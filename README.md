@@ -1,5 +1,7 @@
 ![AlarmKit: Simple Alarms in Swift](https://raw.githubusercontent.com/Brimizer/AlarmKit/master/Assets/alarmkit_logo.png)
 
+AlarmKit is a simple way to make clock based alarms in Swift. 
+Great for making clock apps, scheduled notifications, and anything else that depends on code running at an exact time.
 
 [![Version](https://img.shields.io/cocoapods/v/AlarmKit.svg?style=flat)](http://cocoapods.org/pods/AlarmKit)
 [![License](https://img.shields.io/cocoapods/l/AlarmKit.svg?style=flat)](http://cocoapods.org/pods/AlarmKit)
