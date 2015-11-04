@@ -1,0 +1,14 @@
+PODS:
+  - AlarmKit (0.1.0)
+
+DEPENDENCIES:
+  - AlarmKit (from `../`)
+
+EXTERNAL SOURCES:
+  AlarmKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlarmKit: 39b5320e6c81debb6d47672f381d1c90d02ddff2
+
+COCOAPODS: 0.38.2
