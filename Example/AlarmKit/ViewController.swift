@@ -28,8 +28,8 @@ class ViewController: UIViewController {
             self.triggeredLabel.text = "Alarm Triggered!"
         })
         
-        self.datePicker.addTarget(self, action: "timeChanged", forControlEvents: UIControlEvents.ValueChanged)
-        self.onSwitch.addTarget(self, action: "switchChanged", forControlEvents: UIControlEvents.ValueChanged)
+        self.datePicker.addTarget(self, action: #selector(ViewController.timeChanged), for: UIControlEvents.valueChanged)
+        self.onSwitch.addTarget(self, action: #selector(ViewController.switchChanged), for: UIControlEvents.valueChanged)
     }
 
     override func didReceiveMemoryWarning() {
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
     
     func switchChanged() {
-        if self.onSwitch.on {
+        if self.onSwitch.isOn {
             self.alarm.turnOn()
         } else {
             self.alarm.turnOff()
@@ -60,10 +60,10 @@ class ViewController: UIViewController {
         self.triggeredLabel.text = "Waiting..."
     }
     
-    func components(date:NSDate) -> (Int, Int) {
-        let flags = NSCalendarUnit.Hour.union(NSCalendarUnit.Minute)
-        let comps = NSCalendar.currentCalendar().components(flags, fromDate: date)
-        return (comps.hour, comps.minute)
+    func components(_ date:Date) -> (Int, Int) {
+        let flags = NSCalendar.Unit.hour.union(NSCalendar.Unit.minute)
+        let comps = (Calendar.current as NSCalendar).components(flags, from: date)
+        return (comps.hour!, comps.minute!)
     }
 }
 
