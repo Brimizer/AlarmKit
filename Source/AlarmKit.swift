@@ -34,6 +34,7 @@ public enum Weekday:NSInteger {
 }
 
 public class Alarm: NSObject {
+
     public var hour: Int
     public var minute: Int
     public var weekdays: [Weekday]?
@@ -159,11 +160,7 @@ extension Timer {
     }
     
     func start(runLoop: RunLoop = RunLoop.current, modes: String...) {
-        //let modes = modes.isEmpty ? [NSDefaultRunLoopMode] : modes
-        
-        //for mode in modes {
         runLoop.add(self, forMode: RunLoopMode.defaultRunLoopMode)
-        //}
     }
     
     class func every(_ interval:TimeInterval, _ block: @escaping () -> ()) -> Timer {
